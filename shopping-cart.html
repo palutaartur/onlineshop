@@ -28,19 +28,7 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="ishopNav">
 
-        <ul class="nav navbar-nav navbar-right">
-
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-             aria-expanded="false"><i class="fa fa-shopping-cart" aria-hidden="true"></i>  Shopping Cart (<span class="total-count">0</span>)
-              <span class="caret"></span></a>
-            <div class="dropdown-menu shopping-cart-desc">
-                Total count: <span class="total-count">0</total-count><br>
-                Total cost: <span class="total-cost">0</total-cost><br>
-              <a href="shopping-cart.html" class="btn btn-primary btn-block">View cart</a>
-            </div>
-          </li>
-        </ul>
+      
         <a href="#" class="btn btn-primary navbar-btn navbar-right sign-in"><i class="fa fa-facebook-square"></i> Sign in</a>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -151,18 +139,18 @@
               <th>Action</th>
             </tr>
             <tbody>
-              <tr id="product123">
+              <tr id="product123" class="item">
                 <td class="center"><img src="media/6e6f7465626f6f6b.jpg" alt="EvroMedia"><br>ASUS Notebook</td>
-                <td> $ 570 </td>
+                <td class="price"> $ 570 </td>
                 <td class="count">1</td>
                 <td>
                   <a class="btn btn-danger remove-product" data-id-product="123" data-count="1">Remove one</a>
                 </td>
               </tr>
-              <tr id="product124">
+              <tr id="product124" class="item">
                 <td class="center"><img src="media/736d6172747761746368.jpg" alt="Rolex"><br>Ceas Mecanic</td>
-                <td> $ 370 </td>
-                <td class="count">1</td>
+                <td class="price"> $ 370 </td>
+                <td class="count">2</td>
                 <td>
                   <a class="btn btn-danger remove-product" data-id-product="124" data-count="1">Remove one</a><br><br>
                   <a class="btn btn-danger remove-product all" data-id-product="124" data-count="2">Remove all</a><br><br>
@@ -170,7 +158,7 @@
               </tr>
               <tr>
                 <td colspan="2" class="text-right"><strong>TOTAL : </strong></td>
-                <td colspan="2">$ 59999</td>
+                <td colspan="2" class="total">$ 59999</td>
               </tr>
             </tbody>
           </thead>
